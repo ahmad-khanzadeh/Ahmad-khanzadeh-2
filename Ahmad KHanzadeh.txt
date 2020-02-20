@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <style> 
+            body {
+              font-size: 15px;
+              
+         background-image: url("./bg.jpg");
+         background-repeat: no-repeat;
+         background-size: 100% ;
+       
+      
+
+ 
+            }
+            </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div>
+            
+          <div id="red"> 
+              <div id="maktab">
+                <h1> ganjeh </h1>
+                <h2>Vorood be hesab karbari</h2>
+                </div>
+                <div id="boxha">
+                <from>
+                   
+                    <input type="text " name="first name" size="40px" placeholder="user name" background-color: transparent></br> 
+                    
+                    <input type="text" name="last name" size="40px" placeholder=" pass word"> 
+                </from> 
+                </div>  
+                
+                <button class="block"> vorood </button>  
+               
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ css
+
+#red{
+    
+    font-size: 60 px;
+    font-weight: 900;
+    width:100%;
+     text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+}
+
+.blue{
+    width: 300px;
+    height: 300px;
+    background-color: slateblue;
+
+
+}
+#maktab{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+
+
+}
+#boxha{
+        
+    width=300px;
+        font-weight: 900;
+         font-family: Arial, Helvetica, sans-serif;
+        margin: 60px;
+        background-color: transparent;
+        border: 1px;
+        opacity: 0.6;
+      
+
+}
+.block {
+    
+    
+    width: 300px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .azred{
+
+    width:100%;
+    height:100hv;
+    background-image:url('./bg.jpg');
+  }
